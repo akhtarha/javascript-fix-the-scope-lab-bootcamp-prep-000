@@ -25,5 +25,6 @@ var funkyFunction = function() {
 // The hardest thing for me to grasp was the final challenge – getting to the inner function of funkyFunction. Basically, we declare that theFunk is equal to funkyFunction(). Once we have that stored, we can call the var as a function (theFunk() ) and have that result equal theFunk. By doing so we can finally access return function(), which returns “FUNKY!”
 // We want to set theFunk equal to "FUNKY!" using our funkyFunction.
 // NOTE: you only need to modify the code below this line.
-var theFunk = funkyFunction()
+
+var x = funkyFunction()
 theFunk = theFunk()
